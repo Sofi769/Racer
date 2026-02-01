@@ -1289,13 +1289,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4720965081706274988}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.01, y: 7.57, z: 0.0044679143}
+  m_LocalRotation: {x: -0.005236146, y: -0, z: -0, w: 0.9999863}
+  m_LocalPosition: {x: 0.14, y: 7.39, z: 0.01}
   m_LocalScale: {x: 26, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.6, y: 0, z: 0}
 --- !u!1 &1576058105173244777
 GameObject:
   m_ObjectHideFlags: 0
@@ -3414,7 +3414,7 @@ Transform:
   m_GameObject: {fileID: 3767918998054938513}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.26, y: -7.54, z: 0.0044679143}
+  m_LocalPosition: {x: 0, y: -7.41, z: 0.0044679143}
   m_LocalScale: {x: 26, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5622,7 +5622,6 @@ MonoBehaviour:
   winScreen: {fileID: 905373840906945836}
   playerController: {fileID: 1464295499335591609}
   countdownTimer: {fileID: 3263107224655883174}
-  levelTime: 60
   threeStarTime: 20
   twoStarTime: 10
 --- !u!61 &5468592756814937119
@@ -9289,10 +9288,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb2a7fe20864c3e4d97f43536fb5a53c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 60
   countdownText: {fileID: 2558591925219671271}
   gameOverPanel: {fileID: 2356128266512060188}
   winPanel: {fileID: 1576058105173244777}
+  timeRemaining: 60
 --- !u!114 &9075968550772132475
 MonoBehaviour:
   m_ObjectHideFlags: 0
