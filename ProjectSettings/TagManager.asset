@@ -9,17 +9,18 @@ TagManager:
   - Wall
   - UIAboveMap
   - FinishLine
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Track
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Wall
+  - GrassSand
+  - Enemy
+  - Player
   - 
   - 
   - 

@@ -15,12 +15,11 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene("Level2"); 
     }
 
-    // Method to load Level 3
+ // Method to load Level 3
     public void LoadLevel3()
     {
-        SceneManager.LoadScene("Level3");
+        SceneManager.LoadScene("Level3"); 
     }
-
 
     // Method to quit the game
     public void QuitGame()
